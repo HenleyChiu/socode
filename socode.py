@@ -17,7 +17,10 @@ import requests
 
 def sricola():
     print "Welcome to soCode!!"
-    
+
+def Hisoka():
+    puts "Is this Ruby code?"
+
 def kisom():
     ip = requests.get('http://ifconfig.me/ip').content
     geoip = json.loads(requests.get('http://freegeoip.net/json/' + ip).content)['country']
